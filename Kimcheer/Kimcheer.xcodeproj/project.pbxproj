@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E93DE1F32B3A9B7D00E9FD5D /* cardData.json in Resources */ = {isa = PBXBuildFile; fileRef = E93DE1F22B3A9B7D00E9FD5D /* cardData.json */; };
+		E93DE1F52B3A9D5600E9FD5D /* decks.json in Resources */ = {isa = PBXBuildFile; fileRef = E93DE1F42B3A9D5600E9FD5D /* decks.json */; };
+		E93DE1F82B3ABC2800E9FD5D /* DeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93DE1F72B3ABC2800E9FD5D /* DeckView.swift */; };
+		E93DE1FC2B3ABD4E00E9FD5D /* MiniCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93DE1FB2B3ABD4E00E9FD5D /* MiniCard.swift */; };
+		E9EE468D2B37DC8700611DCA /* KimcheerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EE468C2B37DC8700611DCA /* KimcheerApp.swift */; };
+		E9EE468F2B37DC8700611DCA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EE468E2B37DC8700611DCA /* ContentView.swift */; };
+		E9EE46912B37DC8700611DCA /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EE46902B37DC8700611DCA /* Item.swift */; };
+		E9EE46932B37DC8900611DCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9EE46922B37DC8900611DCA /* Assets.xcassets */; };
+		E9EE46962B37DC8900611DCA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9EE46952B37DC8900611DCA /* Preview Assets.xcassets */; };
+		E9EE46A02B37DC8900611DCA /* KimcheerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EE469F2B37DC8900611DCA /* KimcheerTests.swift */; };
+		E9EE46AA2B37DC8900611DCA /* KimcheerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EE46A92B37DC8900611DCA /* KimcheerUITests.swift */; };
+		E9EE46AC2B37DC8900611DCA /* KimcheerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EE46AB2B37DC8900611DCA /* KimcheerUITestsLaunchTests.swift */; };
+		E9EE46BD2B37E03500611DCA /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EE46BC2B37E03500611DCA /* Question.swift */; };
+		E9EE46BF2B37E3ED00611DCA /* BundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EE46BE2B37E3ED00611DCA /* BundleExtension.swift */; };
+		E9EE46C52B37E4EA00611DCA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EE46C42B37E4EA00611DCA /* Constants.swift */; };
+		E9EE46C72B37E67B00611DCA /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EE46C62B37E67B00611DCA /* Deck.swift */; };
+		E9EE46C92B37E6B600611DCA /* DeckStatistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EE46C82B37E6B600611DCA /* DeckStatistic.swift */; };
+		E9EE46CB2B37E7DC00611DCA /* LiyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EE46CA2B37E7DC00611DCA /* LiyAnimation.swift */; };
+		E9EE46CE2B37E81100611DCA /* CardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EE46CD2B37E81100611DCA /* CardModifier.swift */; };
+		E9EE46D02B37E82900611DCA /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EE46CF2B37E82900611DCA /* ContentViewModel.swift */; };
+		E9EE46D22B37E84200611DCA /* DeckViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EE46D12B37E84200611DCA /* DeckViewModel.swift */; };
+		E9EE46D52B37E9B800611DCA /* BackCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EE46D42B37E9B800611DCA /* BackCardView.swift */; };
+		E9EE46D72B37EA9000611DCA /* FrontCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EE46D62B37EA9000611DCA /* FrontCardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9EE469C2B37DC8900611DCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9EE46812B37DC8600611DCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9EE46882B37DC8600611DCA;
+			remoteInfo = Kimcheer;
+		};
+		E9EE46A62B37DC8900611DCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9EE46812B37DC8600611DCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9EE46882B37DC8600611DCA;
+			remoteInfo = Kimcheer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E93DE1F22B3A9B7D00E9FD5D /* cardData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cardData.json; sourceTree = "<group>"; };
+		E93DE1F42B3A9D5600E9FD5D /* decks.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = decks.json; sourceTree = "<group>"; };
+		E93DE1F72B3ABC2800E9FD5D /* DeckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckView.swift; sourceTree = "<group>"; };
+		E93DE1FB2B3ABD4E00E9FD5D /* MiniCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniCard.swift; sourceTree = "<group>"; };
+		E9EE46892B37DC8600611DCA /* Kimcheer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kimcheer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9EE468C2B37DC8700611DCA /* KimcheerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KimcheerApp.swift; sourceTree = "<group>"; };
+		E9EE468E2B37DC8700611DCA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E9EE46902B37DC8700611DCA /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		E9EE46922B37DC8900611DCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9EE46952B37DC8900611DCA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9EE469B2B37DC8900611DCA /* KimcheerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KimcheerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9EE469F2B37DC8900611DCA /* KimcheerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KimcheerTests.swift; sourceTree = "<group>"; };
+		E9EE46A52B37DC8900611DCA /* KimcheerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KimcheerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9EE46A92B37DC8900611DCA /* KimcheerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KimcheerUITests.swift; sourceTree = "<group>"; };
+		E9EE46AB2B37DC8900611DCA /* KimcheerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KimcheerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E9EE46BC2B37E03500611DCA /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		E9EE46BE2B37E3ED00611DCA /* BundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtension.swift; sourceTree = "<group>"; };
+		E9EE46C42B37E4EA00611DCA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E9EE46C62B37E67B00611DCA /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		E9EE46C82B37E6B600611DCA /* DeckStatistic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckStatistic.swift; sourceTree = "<group>"; };
+		E9EE46CA2B37E7DC00611DCA /* LiyAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiyAnimation.swift; sourceTree = "<group>"; };
+		E9EE46CD2B37E81100611DCA /* CardModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModifier.swift; sourceTree = "<group>"; };
+		E9EE46CF2B37E82900611DCA /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		E9EE46D12B37E84200611DCA /* DeckViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckViewModel.swift; sourceTree = "<group>"; };
+		E9EE46D42B37E9B800611DCA /* BackCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackCardView.swift; sourceTree = "<group>"; };
+		E9EE46D62B37EA9000611DCA /* FrontCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontCardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9EE46862B37DC8600611DCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9EE46982B37DC8900611DCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9EE46A22B37DC8900611DCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E93DE1F62B3ABC1900E9FD5D /* Decks */ = {
+			isa = PBXGroup;
+			children = (
+				E93DE1F72B3ABC2800E9FD5D /* DeckView.swift */,
+			);
+			path = Decks;
+			sourceTree = "<group>";
+		};
+		E9EE46802B37DC8600611DCA = {
+			isa = PBXGroup;
+			children = (
+				E9EE468B2B37DC8700611DCA /* Kimcheer */,
+				E9EE469E2B37DC8900611DCA /* KimcheerTests */,
+				E9EE46A82B37DC8900611DCA /* KimcheerUITests */,
+				E9EE468A2B37DC8600611DCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9EE468A2B37DC8600611DCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9EE46892B37DC8600611DCA /* Kimcheer.app */,
+				E9EE469B2B37DC8900611DCA /* KimcheerTests.xctest */,
+				E9EE46A52B37DC8900611DCA /* KimcheerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9EE468B2B37DC8700611DCA /* Kimcheer */ = {
+			isa = PBXGroup;
+			children = (
+				E9EE46CC2B37E80500611DCA /* Modifiers */,
+				E9EE46C32B37E4D800611DCA /* Helpers */,
+				E9EE46C22B37E48A00611DCA /* Extensions */,
+				E9EE46BB2B37DDFA00611DCA /* Views */,
+				E9EE46BA2B37DDF100611DCA /* View Models */,
+				E9EE46B92B37DDE700611DCA /* Models */,
+				E9EE46B82B37DDE100611DCA /* Data */,
+				E9EE468C2B37DC8700611DCA /* KimcheerApp.swift */,
+				E9EE468E2B37DC8700611DCA /* ContentView.swift */,
+				E9EE46902B37DC8700611DCA /* Item.swift */,
+				E9EE46922B37DC8900611DCA /* Assets.xcassets */,
+				E9EE46942B37DC8900611DCA /* Preview Content */,
+			);
+			path = Kimcheer;
+			sourceTree = "<group>";
+		};
+		E9EE46942B37DC8900611DCA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E9EE46952B37DC8900611DCA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E9EE469E2B37DC8900611DCA /* KimcheerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9EE469F2B37DC8900611DCA /* KimcheerTests.swift */,
+			);
+			path = KimcheerTests;
+			sourceTree = "<group>";
+		};
+		E9EE46A82B37DC8900611DCA /* KimcheerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9EE46A92B37DC8900611DCA /* KimcheerUITests.swift */,
+				E9EE46AB2B37DC8900611DCA /* KimcheerUITestsLaunchTests.swift */,
+			);
+			path = KimcheerUITests;
+			sourceTree = "<group>";
+		};
+		E9EE46B82B37DDE100611DCA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E93DE1F22B3A9B7D00E9FD5D /* cardData.json */,
+				E93DE1F42B3A9D5600E9FD5D /* decks.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E9EE46B92B37DDE700611DCA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E9EE46BC2B37E03500611DCA /* Question.swift */,
+				E9EE46C62B37E67B00611DCA /* Deck.swift */,
+				E9EE46C82B37E6B600611DCA /* DeckStatistic.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E9EE46BA2B37DDF100611DCA /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				E9EE46CF2B37E82900611DCA /* ContentViewModel.swift */,
+				E9EE46D12B37E84200611DCA /* DeckViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		E9EE46BB2B37DDFA00611DCA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E93DE1F62B3ABC1900E9FD5D /* Decks */,
+				E9EE46D32B37E9A900611DCA /* Cards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E9EE46C22B37E48A00611DCA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E9EE46BE2B37E3ED00611DCA /* BundleExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E9EE46C32B37E4D800611DCA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E9EE46C42B37E4EA00611DCA /* Constants.swift */,
+				E9EE46CA2B37E7DC00611DCA /* LiyAnimation.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E9EE46CC2B37E80500611DCA /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				E9EE46CD2B37E81100611DCA /* CardModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		E9EE46D32B37E9A900611DCA /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				E9EE46D42B37E9B800611DCA /* BackCardView.swift */,
+				E9EE46D62B37EA9000611DCA /* FrontCardView.swift */,
+				E93DE1FB2B3ABD4E00E9FD5D /* MiniCard.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9EE46882B37DC8600611DCA /* Kimcheer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9EE46AF2B37DC8900611DCA /* Build configuration list for PBXNativeTarget "Kimcheer" */;
+			buildPhases = (
+				E9EE46852B37DC8600611DCA /* Sources */,
+				E9EE46862B37DC8600611DCA /* Frameworks */,
+				E9EE46872B37DC8600611DCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kimcheer;
+			productName = Kimcheer;
+			productReference = E9EE46892B37DC8600611DCA /* Kimcheer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9EE469A2B37DC8900611DCA /* KimcheerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9EE46B22B37DC8900611DCA /* Build configuration list for PBXNativeTarget "KimcheerTests" */;
+			buildPhases = (
+				E9EE46972B37DC8900611DCA /* Sources */,
+				E9EE46982B37DC8900611DCA /* Frameworks */,
+				E9EE46992B37DC8900611DCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9EE469D2B37DC8900611DCA /* PBXTargetDependency */,
+			);
+			name = KimcheerTests;
+			productName = KimcheerTests;
+			productReference = E9EE469B2B37DC8900611DCA /* KimcheerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9EE46A42B37DC8900611DCA /* KimcheerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9EE46B52B37DC8900611DCA /* Build configuration list for PBXNativeTarget "KimcheerUITests" */;
+			buildPhases = (
+				E9EE46A12B37DC8900611DCA /* Sources */,
+				E9EE46A22B37DC8900611DCA /* Frameworks */,
+				E9EE46A32B37DC8900611DCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9EE46A72B37DC8900611DCA /* PBXTargetDependency */,
+			);
+			name = KimcheerUITests;
+			productName = KimcheerUITests;
+			productReference = E9EE46A52B37DC8900611DCA /* KimcheerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9EE46812B37DC8600611DCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					E9EE46882B37DC8600611DCA = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					E9EE469A2B37DC8900611DCA = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = E9EE46882B37DC8600611DCA;
+					};
+					E9EE46A42B37DC8900611DCA = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = E9EE46882B37DC8600611DCA;
+					};
+				};
+			};
+			buildConfigurationList = E9EE46842B37DC8600611DCA /* Build configuration list for PBXProject "Kimcheer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9EE46802B37DC8600611DCA;
+			productRefGroup = E9EE468A2B37DC8600611DCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9EE46882B37DC8600611DCA /* Kimcheer */,
+				E9EE469A2B37DC8900611DCA /* KimcheerTests */,
+				E9EE46A42B37DC8900611DCA /* KimcheerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9EE46872B37DC8600611DCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E93DE1F52B3A9D5600E9FD5D /* decks.json in Resources */,
+				E9EE46962B37DC8900611DCA /* Preview Assets.xcassets in Resources */,
+				E9EE46932B37DC8900611DCA /* Assets.xcassets in Resources */,
+				E93DE1F32B3A9B7D00E9FD5D /* cardData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9EE46992B37DC8900611DCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9EE46A32B37DC8900611DCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9EE46852B37DC8600611DCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E93DE1FC2B3ABD4E00E9FD5D /* MiniCard.swift in Sources */,
+				E9EE46D72B37EA9000611DCA /* FrontCardView.swift in Sources */,
+				E9EE46C72B37E67B00611DCA /* Deck.swift in Sources */,
+				E9EE468F2B37DC8700611DCA /* ContentView.swift in Sources */,
+				E9EE46BD2B37E03500611DCA /* Question.swift in Sources */,
+				E9EE46CB2B37E7DC00611DCA /* LiyAnimation.swift in Sources */,
+				E93DE1F82B3ABC2800E9FD5D /* DeckView.swift in Sources */,
+				E9EE46912B37DC8700611DCA /* Item.swift in Sources */,
+				E9EE46BF2B37E3ED00611DCA /* BundleExtension.swift in Sources */,
+				E9EE46CE2B37E81100611DCA /* CardModifier.swift in Sources */,
+				E9EE46D02B37E82900611DCA /* ContentViewModel.swift in Sources */,
+				E9EE46C92B37E6B600611DCA /* DeckStatistic.swift in Sources */,
+				E9EE46D22B37E84200611DCA /* DeckViewModel.swift in Sources */,
+				E9EE46C52B37E4EA00611DCA /* Constants.swift in Sources */,
+				E9EE46D52B37E9B800611DCA /* BackCardView.swift in Sources */,
+				E9EE468D2B37DC8700611DCA /* KimcheerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9EE46972B37DC8900611DCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9EE46A02B37DC8900611DCA /* KimcheerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9EE46A12B37DC8900611DCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9EE46AC2B37DC8900611DCA /* KimcheerUITestsLaunchTests.swift in Sources */,
+				E9EE46AA2B37DC8900611DCA /* KimcheerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9EE469D2B37DC8900611DCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9EE46882B37DC8600611DCA /* Kimcheer */;
+			targetProxy = E9EE469C2B37DC8900611DCA /* PBXContainerItemProxy */;
+		};
+		E9EE46A72B37DC8900611DCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9EE46882B37DC8600611DCA /* Kimcheer */;
+			targetProxy = E9EE46A62B37DC8900611DCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E9EE46AD2B37DC8900611DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9EE46AE2B37DC8900611DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9EE46B02B37DC8900611DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kimcheer/Preview Content\"";
+				DEVELOPMENT_TEAM = 3VNDG43TGZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = thomas.Kimcheer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9EE46B12B37DC8900611DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kimcheer/Preview Content\"";
+				DEVELOPMENT_TEAM = 3VNDG43TGZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = thomas.Kimcheer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E9EE46B32B37DC8900611DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3VNDG43TGZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = thomas.KimcheerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kimcheer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kimcheer";
+			};
+			name = Debug;
+		};
+		E9EE46B42B37DC8900611DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3VNDG43TGZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = thomas.KimcheerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kimcheer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kimcheer";
+			};
+			name = Release;
+		};
+		E9EE46B62B37DC8900611DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3VNDG43TGZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = thomas.KimcheerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kimcheer;
+			};
+			name = Debug;
+		};
+		E9EE46B72B37DC8900611DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3VNDG43TGZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = thomas.KimcheerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kimcheer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9EE46842B37DC8600611DCA /* Build configuration list for PBXProject "Kimcheer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9EE46AD2B37DC8900611DCA /* Debug */,
+				E9EE46AE2B37DC8900611DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9EE46AF2B37DC8900611DCA /* Build configuration list for PBXNativeTarget "Kimcheer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9EE46B02B37DC8900611DCA /* Debug */,
+				E9EE46B12B37DC8900611DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9EE46B22B37DC8900611DCA /* Build configuration list for PBXNativeTarget "KimcheerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9EE46B32B37DC8900611DCA /* Debug */,
+				E9EE46B42B37DC8900611DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9EE46B52B37DC8900611DCA /* Build configuration list for PBXNativeTarget "KimcheerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9EE46B62B37DC8900611DCA /* Debug */,
+				E9EE46B72B37DC8900611DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9EE46812B37DC8600611DCA /* Project object */;
+}

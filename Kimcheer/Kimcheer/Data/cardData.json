@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "korean": "안녕하세요",
+        "english": "Hello",
+        "pronounciation": "annyeonghaseyo",
+        "example": "안녕하세요, 저는 마이클입니다",
+        "tone": "Formal",
+        "answers": [
+            "Good morning",
+            "Hello",
+            "How are you"
+        ]
+    },
+    {
+        "id": 2,
+        "korean": "감사합니다",
+        "english": "Thank you",
+        "pronounciation": "gamsahamnida",
+        "example": "이 선물을 주셔서 감사합니다",
+        "tone": "Formal",
+        "answers": [
+            "Thank you",
+            "You're welcome",
+            "Please"
+        ]
+    },
+    {
+        "id": 3,
+        "korean": "네",
+        "english": "Yes",
+        "pronounciation": "ne",
+        "example": "네, 저는 학생입니다",
+        "tone": "Neutral",
+        "answers": [
+            "Yes",
+            "No",
+            "Maybe"
+        ]
+    },
+    {
+        "id": 4,
+        "korean": "아니요",
+        "english": "No",
+        "pronounciation": "aniyo",
+        "example": "아니요, 저는 괜찮아요",
+        "tone": "Neutral",
+        "answers": [
+            "No",
+            "Yes",
+            "I don't know"
+        ]
+    },
+    {
+        "id": 5,
+        "korean": "죄송합니다",
+        "english": "I'm sorry",
+        "pronounciation": "joesonghamnida",
+        "example": "지각해서 죄송합니다",
+        "tone": "Formal",
+        "answers": [
+            "I'm sorry",
+            "Thank you",
+            "Excuse me"
+        ]
+    },
+    {
+        "id": 6,
+        "korean": "잘 지냈어요?",
+        "english": "How are you?",
+        "pronounciation": "jal jinaesseoyo",
+        "example": "오랜만이에요, 잘 지냈어요?",
+        "tone": "Informal",
+        "answers": [
+            "I'm fine, thank you",
+            "How are you?",
+            "Good morning"
+        ]
+    },
+    {
+        "id": 7,
+        "korean": "어디에요?",
+        "english": "Where is it?",
+        "pronounciation": "eodieyo",
+        "example": "화장실이 어디에요?",
+        "tone": "Neutral",
+        "answers": [
+            "Where is it?",
+            "Here it is",
+            "Over there"
+        ]
+    },
+    {
+        "id": 8,
+        "korean": "얼마에요?",
+        "english": "How much is it?",
+        "pronounciation": "eolmaeyo",
+        "example": "이것은 얼마에요?",
+        "tone": "Neutral",
+        "answers": [
+            "How much is it?",
+            "It's cheap",
+            "It's expensive"
+        ]
+    },
+    {
+        "id": 9,
+        "korean": "이해했어요",
+        "english": "I understand",
+        "pronounciation": "ihaehaesseoyo",
+        "example": "네, 저는 이해했어요",
+        "tone": "Informal",
+        "answers": [
+            "I understand",
+            "I don't understand",
+            "Please explain again"
+        ]
+    },
+    {
+        "id": 10,
+        "korean": "사랑해요",
+        "english": "I love you",
+        "pronounciation": "saranghaeyo",
+        "example": "저는 당신을 사랑해요",
+        "tone": "Informal",
+        "answers": [
+            "I love you",
+            "I like you",
+            "Thank you"
+        ]
+    }
+]
