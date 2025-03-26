@@ -17,16 +17,10 @@ struct FrontCardView: View {
             Text(question.korean)
                 .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                 .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
-            Text("("+question.pronounciation+")").fontWeight(.thin)
             Divider()
             Text(question.english)
                 .foregroundColor(.black)
                 .fontWeight(.semibold)
-            Text(question.tone)
-            Divider()
-            Text("Example:").fontWeight(.thin)
-            Text(question.example).fontWeight(.thin)
-            
         }.card()
     }
 }

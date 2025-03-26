@@ -44,7 +44,6 @@ final class DeckViewModel: ObservableObject {
         }
 
         LiyAnimation(duration: Constants.setupDuration) {
-            self.setupAnswers()
             self.deckState = .playing
         }.playAfter(duration: delay)
     }
@@ -55,19 +54,8 @@ final class DeckViewModel: ObservableObject {
             self.cards.remove(at: self.cards.count-1)
             self.flipped = false
             self.rotation = 0.0
-            self.setupAnswers()
             self.checkForEndGame()
         }.playAfter(duration: Constants.nextCardAnimationLength)
-    }
-    
-    func setupAnswers() {
-        self.answers = []
-        var newAnswers = topCard.answers
-        newAnswers.append(topCard.korean)
-        
-        for answer in newAnswers.shuffled() {
-            self.answers.append(answer)
-        }
     }
     
     func submitAnswer(_ questionName: String) {

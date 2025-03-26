@@ -13,6 +13,7 @@ struct DeckView: View {
     let deck: Deck
     
     @StateObject var vm = DeckViewModel()
+    @State private var answerText = ""
     
     var body: some View {
         VStack {
@@ -21,7 +22,7 @@ struct DeckView: View {
                 flashMarks
             }
             endScreen
-            answerButtons
+            answerInput
         }
         .navigationTitle(deck.name)
         .navigationBarTitleDisplayMode(.large)
@@ -64,33 +65,30 @@ extension DeckView {
         }
     }
     
-    @ViewBuilder
-    private var answerButtons: some View {
-        if vm.deckState == .playing || vm.deckState == .submitting {
-            VStack {
-                HStack {
-                    answerButton(questionName: vm.answers[0])
-                    answerButton(questionName: vm.answers[1])
-                }
-                HStack {
-                    answerButton(questionName: vm.answers[2])
-                    answerButton(questionName: vm.answers[3])
-                }
-            }
-            .padding()
-        }
-    }
-    
-    private func answerButton(questionName: String) -> some View {
-        Button {
-            vm.submitAnswer(questionName)
-        } label: {
-            Text(questionName)
+    private var answerInput: some View {
+        VStack {
+            TextField("Enter your answer", text: $answerText)
                 .padding()
-                .background(.ultraThickMaterial)
-                .cornerRadius(7)
+                .background(Color(.systemGray6))
+                .cornerRadius(8)
+                .padding(.horizontal)
+            
+            Button {
+                vm.submitAnswer(answerText)
+                answerText = ""
+            } label: {
+                Text("Submit")
+                    .padding()
+                    .frame(maxWidth: .infinity)
+                    .background(.blue)
+                    .foregroundColor(.white)
+                    .cornerRadius(8)
+                    .padding(.horizontal)
+            }
+            .disabled(vm.deckState != .playing || answerText.isEmpty)
         }
-        .disabled(vm.deckState != .playing)
+        .padding(.bottom)
+        .opacity(vm.deckState == .playing && !vm.cards.isEmpty ? 1 : 0)
     }
     
     @ViewBuilder
