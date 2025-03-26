@@ -10,7 +10,6 @@
 		E93DE1F32B3A9B7D00E9FD5D /* cardData.json in Resources */ = {isa = PBXBuildFile; fileRef = E93DE1F22B3A9B7D00E9FD5D /* cardData.json */; };
 		E93DE1F52B3A9D5600E9FD5D /* decks.json in Resources */ = {isa = PBXBuildFile; fileRef = E93DE1F42B3A9D5600E9FD5D /* decks.json */; };
 		E93DE1F82B3ABC2800E9FD5D /* DeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93DE1F72B3ABC2800E9FD5D /* DeckView.swift */; };
-		E93DE1FC2B3ABD4E00E9FD5D /* MiniCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93DE1FB2B3ABD4E00E9FD5D /* MiniCard.swift */; };
 		E9EE468D2B37DC8700611DCA /* KimcheerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EE468C2B37DC8700611DCA /* KimcheerApp.swift */; };
 		E9EE468F2B37DC8700611DCA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EE468E2B37DC8700611DCA /* ContentView.swift */; };
 		E9EE46912B37DC8700611DCA /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EE46902B37DC8700611DCA /* Item.swift */; };
@@ -53,7 +52,6 @@
 		E93DE1F22B3A9B7D00E9FD5D /* cardData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cardData.json; sourceTree = "<group>"; };
 		E93DE1F42B3A9D5600E9FD5D /* decks.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = decks.json; sourceTree = "<group>"; };
 		E93DE1F72B3ABC2800E9FD5D /* DeckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckView.swift; sourceTree = "<group>"; };
-		E93DE1FB2B3ABD4E00E9FD5D /* MiniCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniCard.swift; sourceTree = "<group>"; };
 		E9EE46892B37DC8600611DCA /* Kimcheer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kimcheer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9EE468C2B37DC8700611DCA /* KimcheerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KimcheerApp.swift; sourceTree = "<group>"; };
 		E9EE468E2B37DC8700611DCA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -242,7 +240,6 @@
 			children = (
 				E9EE46D42B37E9B800611DCA /* BackCardView.swift */,
 				E9EE46D62B37EA9000611DCA /* FrontCardView.swift */,
-				E93DE1FB2B3ABD4E00E9FD5D /* MiniCard.swift */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -311,7 +308,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1510;
-				LastUpgradeCheck = 1510;
+				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					E9EE46882B37DC8600611DCA = {
 						CreatedOnToolsVersion = 15.1;
@@ -379,7 +376,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E93DE1FC2B3ABD4E00E9FD5D /* MiniCard.swift in Sources */,
 				E9EE46D72B37EA9000611DCA /* FrontCardView.swift in Sources */,
 				E9EE46C72B37E67B00611DCA /* Deck.swift in Sources */,
 				E9EE468F2B37DC8700611DCA /* ContentView.swift in Sources */,
@@ -611,7 +607,6 @@
 		E9EE46B32B37DC8900611DCA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -631,7 +626,6 @@
 		E9EE46B42B37DC8900611DCA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -651,7 +645,6 @@
 		E9EE46B62B37DC8900611DCA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3VNDG43TGZ;
@@ -669,7 +662,6 @@
 		E9EE46B72B37DC8900611DCA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3VNDG43TGZ;

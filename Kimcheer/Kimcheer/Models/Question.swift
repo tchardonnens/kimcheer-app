@@ -11,12 +11,8 @@ struct Question: Codable {
     var id: Int
     var korean: String
     var english: String
-    var pronounciation: String
-    var example: String
-    var tone: String
-    var answers: [String]
 }
 
 extension Question: Identifiable {
-    
+
 }

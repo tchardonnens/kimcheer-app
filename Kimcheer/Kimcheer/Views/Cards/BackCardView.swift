@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 
 struct BackCardView: View {
-    
+
     let question: Question
     var body: some View {
         VStack {

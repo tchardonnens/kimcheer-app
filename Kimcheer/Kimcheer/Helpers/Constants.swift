@@ -13,8 +13,6 @@ enum Constants {
     static let decks: [Deck] = Bundle.main.decode("decks.json")
     static let cardHeight: CGFloat = 400
     static let cardWidth: CGFloat = 300
-    static let minicardHeight: CGFloat = 200
-    static let minicardWidth: CGFloat = 150
     static let nextCardAnimationLength = 1.0
     static let cardFlipAnimationLength: Double = 0.4
     static var halfFlipAnimationLength: Double { Constants.cardFlipAnimationLength / 2 }
